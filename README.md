@@ -1,34 +1,46 @@
-# ALTA Immersive FrontEnd Resource
+# Getting Started with Create React App
 
-Repository pengumpulan tugas harian ALTA Immersive Program FrontEnd.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Tata Cara Pengerjakan Tugas
+## Available Scripts
 
-1. Clone repository ini dengan cara
+In the project directory, you can run:
 
-```
-git clone git@github.com:Immersive-Frontend-Resource/FE-Resource.git
-```
+### `npm start`
 
-setelah itu buat repository pada github profile kalian dengan format `ALTA-FE-BATCH1-Nama` (Ketentuan dapat dilihat pada link [berikut](https://docs.google.com/document/d/1apVcuLAv3GJTOTRWZGYsAHIWQq19JgBJgk_KXLSRynA/edit#heading=h.apg7xnrwmztx)), lalu copy link SSH seperti gambar dibawah
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-![repo clone](https://res.cloudinary.com/hypeotesa/image/upload/v1664123506/clone_tuuriz.png)
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-2. Jalankan perintah dibawah untuk mengganti remote git repository (Ubah <SSH_LINK_HERE> dengan link SSH yang telah di copy di step sebelumnya).
+### `npm test`
 
-```bash
-git remote set-url origin <SSH_LINK_HERE>
-```
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-3. Kerjakan di masing-masing folder dan file yang sudah ditentukan sesuai dengan tugas yang diberikan.
-4. Push pengerjakan tugas di repo yang sudah ada dengan perintah yang tertulis dibawah ini setiap harinya.
+### `npm run build`
 
-```bash
-git add .
-git commit -m "feat: finish tasks part 1"
-git push -u origin main
-```
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Ubah pesan commit sesuai dengan apa yang telah dikerjakan, usahakan menggunakan Semantic Commit Message agar history Git dapat mudah dibaca.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-5. Selamat Mencoba!!!
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).

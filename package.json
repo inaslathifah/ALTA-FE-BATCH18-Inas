@@ -1,31 +1,52 @@
 {
-  "name": "alta-immersive-fe-resource",
-  "version": "1.0.0",
-  "description": "Repository pengumpulan tugas harian ALTA Immersive Program FrontEnd.",
-  "main": "index.js",
-  "scripts": {
-    "test": "jest",
-    "test:part4": "jest --testPathPattern=__test__/04-Function-and-Branching",
-    "test:part5": "jest --testPathPattern=__test__/05-Object-and-Array",
-    "test:part6": "jest --testPathPattern=__test__/06-Loops-and-Recursive",
-    "test:part7": "jest --testPathPattern=__test__/07-Sorting-and-Searching",
-    "test:part8": "jest --testPathPattern=__test__/08-Asynchronous",
-    "test:part9": "jest --testPathPattern=__test__/09-Brute-Force-and-Greedy",
-    "test:part10": "jest --testPathPattern=__test__/10-DnC-and-Dynamic-Programming",
-    "test:part11": "jest --testPathPattern=__test__/11-TypeScript-Challenge-1",
-    "test:part12": "jest --testPathPattern=__test__/12-TypeScript-Challenge-2"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "name": "react-library",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "ts-node": "^10.9.1",
-    "ts-node-dev": "^2.0.0",
-    "typescript": "^5.2.2"
+    "@okta/okta-react": "^6.4.3",
+    "@okta/okta-signin-widget": "^6.3.3",
+    "@stripe/react-stripe-js": "^1.9.0",
+    "@stripe/stripe-js": "^1.32.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.51",
+    "@types/react": "^18.2.21",
+    "@types/react-dom": "^18.2.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^5.3.4",
+    "react-scripts": "5.0.1",
+    "stripe": "^9.14.0",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "set HTTPS=true&&react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   },
   "devDependencies": {
-    "@types/jest": "^29.5.5",
-    "jest": "^29.7.0",
-    "ts-jest": "^29.1.1"
+    "@types/react-router-dom": "^5.3.3"
   }
 }
